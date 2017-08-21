@@ -6,7 +6,7 @@ $app->get('/', function ($request, $response) {
     $this->logger->info("Slim-Skeleton '/' route");
 
     // Render index view
-    return $this->renderer->render($response, 'nav.html');
+    return $this->renderer->render($response, 'index.phtml');
 });
 
 // $app->get('/[{name}]', function ($request, $response, $args) {
